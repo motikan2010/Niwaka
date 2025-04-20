@@ -1,0 +1,9 @@
+python-dotenv==1.1.0
+slack_sdk==3.35.0
+python-dotenv==1.1.0
+openai==1.75.0
+slack_bolt==1.23.0
+flask==3.1.0
+mcp-server-git==2025.1.14
+mcp-client-cli==1.0.1
+

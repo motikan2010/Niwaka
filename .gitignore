@@ -1,0 +1,4 @@
+*.log
+/.llm/config.json
+/app/.env
+

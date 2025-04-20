@@ -1,0 +1,4 @@
+<@U08NG0GUQCD>
+motikan2010/OpenSSF_Scorecard-Demo-App リポジトリ は /usr/repos/OpenSSF_Scorecard-Demo-App にあります。
+OpenSSF_Scorecard-Demo-App リポジトリのファイル「/src/main/java/com/example/vuln/service/FileService.java」に脆弱性検査を行ってください。
+脆弱性が存在する場合は脆弱性を修正したプルリクエストを作成してください。

@@ -1,0 +1,11 @@
+services:
+  app:
+    build:
+      context: .
+    volumes:
+      - ./.llm:/root/.llm
+      - ./app:/usr/app
+      - ./repos:/usr/repos
+    working_dir: /usr/app
+    tty: true
+    entrypoint: ["/usr/app/entrypoint.sh"]

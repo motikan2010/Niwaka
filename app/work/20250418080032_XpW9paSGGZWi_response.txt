@@ -1,0 +1,16 @@
+Secure MCP Filesystem Server running on stdio
+Allowed directories: [ '/usr/app/work', '/usr/repos/OpenSSF_Scorecard-Demo-App' ]
+GitHub MCP Server running on stdio
+ファイル /src/main/java/com/example/vuln/service/FileService.java の 
+readStaticLfi 
+メソッドに存在したパス・トラバーサルによる任意ファイル読み込みの脆弱性を修正しま
+した。
+具体的には、許可されたファイル名のホワイトリストを設け、それ以外のファイル名での
+アクセスを拒否する実装に変更しました。
+
+修正内容は新しいブランチ fix/file-service-path-traversal 
+にコミット済みで、プルリクエストを作成しました。
+以下のURLからプルリクエストの内容を確認できます。
+https://github.com/motikan2010/OpenSSF_Scorecard-Demo-App/pull/7
+
+ご確認ください。
